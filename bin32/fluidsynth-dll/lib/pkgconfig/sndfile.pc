@@ -1,0 +1,12 @@
+prefix=/home/joshu/fluidsynth/bin/32/fluidsynth-dll
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: sndfile
+Description: A library for reading and writing audio files
+Requires: 
+Version: 1.0.28
+Libs: -L${libdir} -lsndfile
+Libs.private: -LC:/Users/joshu/Desktop/msys64/home/joshu/fluidsynth/bin/32/fluidsynth-dll/lib -lFLAC -LC:/Users/joshu/Desktop/msys64/home/joshu/fluidsynth/bin/32/fluidsynth-dll/lib -logg -LC:/Users/joshu/Desktop/msys64/home/joshu/fluidsynth/bin/32/fluidsynth-dll/lib -lvorbis -LC:/Users/joshu/Desktop/msys64/home/joshu/fluidsynth/bin/32/fluidsynth-dll/lib -lvorbisenc  
+Cflags: -I${includedir} 
