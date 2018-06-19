@@ -17,7 +17,7 @@ old_library='libfluidsynth.a'
 inherited_linker_flags=' -pthread'
 
 # Libraries that this one depends upon.
-dependency_libs=' -lws2_32 -lreadline -ltermcap -L=F:/msys2/msys32/mingw32/lib -lportaudio -ldsound -lsetupapi -lwinmm -lole32 -luuid -lgthread-2.0 -lglib-2.0 -lintl -lsndfile -lpthread'
+dependency_libs=' -lws2_32 -lreadline -ltermcap -L=E:/msys2/msys32/mingw32/lib -lportaudio -ldsound -lsetupapi -lwinmm -lole32 -luuid -lgthread-2.0 -lglib-2.0 -lintl -lsndfile -lpthread'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''

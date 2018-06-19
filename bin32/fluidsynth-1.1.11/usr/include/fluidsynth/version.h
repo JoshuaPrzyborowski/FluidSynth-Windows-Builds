@@ -31,7 +31,7 @@ extern "C" {
  * @brief Library version functions and defines
  */
 
-#define FLUIDSYNTH_VERSION       "1.1.10"           /**< String constant of libfluidsynth version. */
+#define FLUIDSYNTH_VERSION       "1.1.11"           /**< String constant of libfluidsynth version. */
 #define FLUIDSYNTH_VERSION_MAJOR 1     /**< libfluidsynth major version integer constant. */
 #define FLUIDSYNTH_VERSION_MINOR 1     /**< libfluidsynth minor version integer constant. */
 #define FLUIDSYNTH_VERSION_MICRO 10     /**< libfluidsynth micro version integer constant. */
