@@ -1,4 +1,4 @@
-prefix=F:/FluidSynth/Builds/bin64/fluidsynth-2.0.0/usr
+prefix=/usr
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include
