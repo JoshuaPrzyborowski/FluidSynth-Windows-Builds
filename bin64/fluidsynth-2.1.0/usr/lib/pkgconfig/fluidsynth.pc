@@ -1,0 +1,10 @@
+prefix=F:/FluidSynth/Builds/bin64/fluidsynth-2.1.0
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: FluidSynth
+Description: Software SoundFont synth
+Version: 2.1.0
+Libs: -L${libdir} -lfluidsynth
+Cflags: -I${includedir}
